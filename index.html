@@ -1,53 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>PPS | Home</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/js/script.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <div class="navbar">
-                <img src="assets/logo/PERSAUTAN.png">
-                <a href="about/">
-                    <button>About Us</button>
-                </a>
-                <a href="contact/">
-                    <button>Contact Us</button>
-                </a>
-                <a href="join/">
-                    <button>Join Us</button>
-                </a>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PPS (Persatuan Pelajar Spesus) Cabang Purwokerto — Komunitas pelajar SMP Susteran yang aktif, solid, dan berkontribusi positif." />
+  <title>PPS — Persatuan Pelajar Spesus</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════ NAVBAR ══════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <nav class="navbar-inner">
+        <a href="index.html" class="navbar-brand">
+          <div class="brand-logo-img">
+            <img src="assets/logo/abcds.png" alt="Logo PPS" class="logo-emblem" />
+          </div>
+          <div class="brand-text">
+            <strong>Persatuan Pelajar Spesus</strong>
+            <span>Cabang Purwokerto</span>
+          </div>
+        </a>
+
+        <div class="navbar-links">
+          <a href="index.html" class="nav-link active">Beranda</a>
+          <a href="about/index.html" class="nav-link">Tentang</a>
+          <a href="contact/index.html" class="nav-link">Kontak</a>
+          <a href="join/index.html" class="nav-cta">Bergabung</a>
+        </div>
+
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-nav">
+      <a href="index.html" class="nav-link">Beranda</a>
+      <a href="about/index.html" class="nav-link">Tentang</a>
+      <a href="contact/index.html" class="nav-link">Kontak</a>
+      <a href="join/index.html" class="nav-cta">Bergabung</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-logo-watermark">
+      <img src="assets/logo/abcds.png" alt="" aria-hidden="true" class="logo-hero-watermark" />
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">Resmi Berdiri Sejak 28 Mei</div>
+        <h1>Persatuan<br /><em>Pelajar Spesus</em></h1>
+        <p class="hero-desc">
+          Komunitas pelajar SMP Susteran Purwokerto yang bertujuan mempererat persatuan,
+          meningkatkan semangat belajar, dan membangun solidaritas antar siswa.
+        </p>
+        <div class="hero-actions">
+          <a href="join/index.html" class="btn btn-gold btn-hero">Bergabung Sekarang →</a>
+          <a href="about/index.html" class="btn btn-hero-outline">Kenali PPS</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-num">6</span>
+        <span class="hero-stat-label">Anggota Inti</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">1</span>
+        <span class="hero-stat-label">Cabang Aktif</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">28</span>
+        <span class="hero-stat-label">Mei 2026</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">100%</span>
+        <span class="hero-stat-label">Solidaritas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FEATURES ══════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag fade-in">Mengapa PPS?</span>
+        <h2 class="section-title fade-in fade-in-delay-1">Lebih dari Sekadar Komunitas</h2>
+        <p class="section-subtitle fade-in fade-in-delay-2">
+          Kami hadir untuk menjadi ruang tumbuh, berkolaborasi, dan saling menguatkan
+          bagi setiap pelajar Spesus.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🤝</div>
+          <h3>Solidaritas Nyata</h3>
+          <p>Kami membangun ikatan antar anggota yang melampaui ruang kelas — saling mendukung dalam setiap langkah.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-1">
+          <div class="feature-icon">📚</div>
+          <h3>Semangat Belajar</h3>
+          <p>Lingkungan yang mendorong rasa ingin tahu dan motivasi belajar setiap anggota menjadi lebih baik.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-2">
+          <div class="feature-icon">🌱</div>
+          <h3>Ruang Berkembang</h3>
+          <p>Platform bagi pelajar untuk mengeksplorasi potensi diri, mengembangkan karakter, dan membangun kepercayaan diri.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-1">
+          <div class="feature-icon">🏅</div>
+          <h3>Nilai & Integritas</h3>
+          <p>Kami menjunjung tinggi sikap saling menghormati, bertanggung jawab, dan menjaga nama baik bersama.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-2">
+          <div class="feature-icon">💡</div>
+          <h3>Kolaborasi Kreatif</h3>
+          <p>Setiap anggota diajak untuk berkreasi, berdiskusi, dan saling berbagi ide dalam atmosfer yang positif.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-3">
+          <div class="feature-icon">🌐</div>
+          <h3>Komunitas Inklusif</h3>
+          <p>Terbuka bagi semua pelajar Spesus tanpa terkecuali — karena setiap suara berharga di sini.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ VIDEO PROFIL ══════════════════ -->
+  <section class="video-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag fade-in">Media</span>
+        <h2 class="section-title fade-in fade-in-delay-1">Video Profil PPS</h2>
+        <p class="section-subtitle fade-in fade-in-delay-2">
+          Saksikan perjalanan dan semangat komunitas kami melalui video profil resmi PPS Cabang Purwokerto.
+        </p>
+      </div>
+
+      <div class="video-card fade-in fade-in-delay-1">
+        <div class="video-thumbnail">
+          <a href="#" class="play-btn" aria-label="Tonton Video">▶</a>
+          <div class="video-label">Video Profil Resmi</div>
+        </div>
+        <div class="video-info">
+          <h3>Persatuan Pelajar Spesus — Cabang Purwokerto</h3>
+          <p>
+            Mengenal lebih dekat komunitas pelajar SMP Susteran Purwokerto: visi, semangat,
+            dan perjalanan PPS dalam membangun generasi yang solid dan berkarakter.
+          </p>
+          <a href="assets/video/videoprofil.mp4" class="btn btn-gold">▶ &nbsp;Tonton Video</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ STATS ══════════════════ -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number"><span class="count-up" data-target="6" data-suffix="">0</span></span>
+          <span class="stat-label">Anggota Inti</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-1">
+          <span class="stat-number"><span class="count-up" data-target="1" data-suffix="">0</span></span>
+          <span class="stat-label">Cabang Aktif</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-2">
+          <span class="stat-number"><span class="count-up" data-target="100" data-suffix="%">0%</span></span>
+          <span class="stat-label">Komitmen Anggota</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-3">
+          <span class="stat-number"><span class="count-up" data-target="28" data-suffix="">0</span> <span style="color:var(--gold)">Mei</span></span>
+          <span class="stat-label">Tanggal Berdiri</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════ CTA ══════════════════ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box fade-in">
+        <h2>Siap Bergabung Bersama Kami?</h2>
+        <p>
+          Jadilah bagian dari komunitas pelajar yang solid, positif, dan penuh semangat.
+          Daftarkan dirimu sekarang — mudah, cepat, dan gratis.
+        </p>
+        <div class="cta-actions">
+          <a href="join/index.html" class="btn btn-gold">Daftar Sekarang →</a>
+          <a href="contact/index.html" class="btn btn-hero-outline">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="navbar-brand">
+            <div class="brand-logo-img brand-logo-img--footer">
+              <img src="assets/logo/abcds.png" alt="Logo PPS" class="logo-emblem logo-emblem--footer" />
             </div>
-        </header>
-        <main>
-            <div class="opening_teks">
-                <h1>Persatuan Pelajar Spesus</h1>
-                <p>Bergabunglah bersama kami, dan jadilah bagian dari persatuan pelajar Spesus yang kuat dan bersatu.</p>
-                <p>"Kami bersatu, kami belajar, kami kuat"</p>
-                <a href="about/">
-                    <button>Tentang kami</button>
-                </a>
-                <a href="join/">
-                    <button>Bergabung</button>
-                </a>
+            <div class="brand-text">
+              <strong>Persatuan Pelajar Spesus</strong>
+              <span>Cabang Purwokerto</span>
             </div>
-        </main>
-        <footer>
-            <h3>Info</h3>
-            <a href="about/">
-                <h5>About Us</h5>
-            </a>
-            <a href="contact/">
-                <h5>Contact Us</h5>
-            </a>
-            <a href="join/">
-                <h5>Join Us</h5>
-            </a>
-            <h5>Purwokerto, central java</h5>
-            <h5>© 2026 PPS. All right reserved.</h5>
-            <h5>Developed By Mikhael Christo</h5>
-        </footer>
-    </body>
+          </a>
+          <p>Komunitas pelajar SMP Susteran Purwokerto yang aktif, solid, dan berkontribusi positif bagi lingkungan sekolah.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <div class="footer-links">
+            <a href="index.html">Beranda</a>
+            <a href="about/index.html">Tentang PPS</a>
+            <a href="contact/index.html">Kontak</a>
+            <a href="join/index.html">Bergabung</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Informasi</h4>
+          <div class="footer-links">
+            <a href="about/index.html#visi-misi">Visi & Misi</a>
+            <a href="about/index.html#struktur">Struktur Organisasi</a>
+            <a href="about/index.html#rules">Tata Tertib</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>PPS Cabang Purwokerto</span>. Persatuan Pelajar Spesus.</p>
+        <p>Didirikan <span>28 Mei 2026</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
